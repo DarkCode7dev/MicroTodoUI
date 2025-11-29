@@ -7,5 +7,7 @@ spec:
   selector:
     app.kubernetes.io/name: firefox
   ports:
-  - port: 443
-    targetPort: 3001 
+    - name: gui
+      port: 8082
+      targetPort: 8082
+      protocol: TCP
