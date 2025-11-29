@@ -8,4 +8,4 @@ spec:
     app.kubernetes.io/name: firefox
   ports:
   - port: 443
-    targetPort: 3001
+    targetPort: 3001 
