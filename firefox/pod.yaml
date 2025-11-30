@@ -9,9 +9,4 @@ spec:
   - name: firefox
     image: linuxserver/firefox
     ports:
-      - name: selkies-ui
-        containerPort: 8082
-      - name: selkies-control
-        containerPort: 8083
-      - name: novnc
-        containerPort: 5800
+      - containerPort: 3001
