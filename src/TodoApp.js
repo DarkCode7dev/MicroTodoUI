@@ -8,7 +8,7 @@ import config from './config'; // Import the config file with environment variab
 // Use the config to define API URLs
 const GET_TASKS_API_BASE_URL = 'http://dev-get-tasks-api.dhakkan.online';
 const DELETE_TASK_API_BASE_URL = 'http://dev-delete-task-api.dhakkan.online';
-const CREATE_TASK_API_BASE_URL = 'http://dev-add-task-api.dhakkan.online/tasks';
+const CREATE_TASK_API_BASE_URL = 'http://dev-add-task-api.dhakkan.online';
 
 //Update Task Functionality is Work In Progress
 // const UPDATE_TASK_API_BASE_URL = '';
