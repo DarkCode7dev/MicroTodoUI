@@ -6,9 +6,9 @@ import { Box } from '@mui/material';
 import config from './config'; // Import the config file with environment variable support
 
 // Use the config to define API URLs
-const GET_TASKS_API_BASE_URL = 'http://10.0.183.190:80';
-const DELETE_TASK_API_BASE_URL = config.DELETE_TASK_API_BASE_URL;
-const CREATE_TASK_API_BASE_URL = 'http://10.0.68.209:80/tasks';
+const GET_TASKS_API_BASE_URL = 'http://dev-get-tasks-api.dhakkan.online';
+const DELETE_TASK_API_BASE_URL = 'http://dev-delete-task-api.dhakkan.online';
+const CREATE_TASK_API_BASE_URL = 'http://dev-add-task-api.dhakkan.online/tasks';
 
 //Update Task Functionality is Work In Progress
 // const UPDATE_TASK_API_BASE_URL = '';
